@@ -36,3 +36,30 @@ const myfunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+// -----------------------------------
+
+// Srack (Primitive),Heap (non Primitive)
+
+
+let myYoutubeName = "Baber Azam"
+
+let anotherName = myYoutubeName
+anotherName = "Nauman Akhtar"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "nauman@gmail.com",
+    upi: "user@ybl"
+}
+
+let usertwo = userOne
+
+usertwo.email = "akhtar@gmail.com"
+
+console.log(usertwo);
+console.log(userOne);
+
